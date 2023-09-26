@@ -7,4 +7,5 @@ module "telegram_bot_repo" {
     "lint",
     "build_push_docker",
   ]
+  create_default_branch = false
 }

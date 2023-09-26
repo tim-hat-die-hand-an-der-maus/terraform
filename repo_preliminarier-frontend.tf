@@ -7,4 +7,5 @@ module "preliminarier_frontend_repo" {
     "Lint",
     "Build Web Package",
   ]
+  create_default_branch = false
 }

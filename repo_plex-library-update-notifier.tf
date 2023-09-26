@@ -5,4 +5,5 @@ module "plex_library_update_notifier_repo" {
     "lint",
     "build_push_docker",
   ]
+  create_default_branch = false
 }

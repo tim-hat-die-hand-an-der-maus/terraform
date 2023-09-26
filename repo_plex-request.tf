@@ -7,4 +7,5 @@ module "plex_request_repo" {
     "lint",
     "build_docker",
   ]
+  create_default_branch = false
 }

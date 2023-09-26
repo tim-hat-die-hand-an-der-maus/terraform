@@ -6,4 +6,5 @@ module "plex_resolver_repo" {
   required_status_checks = [
     "lint",
   ]
+  create_default_branch = false
 }

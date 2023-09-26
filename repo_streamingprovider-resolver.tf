@@ -6,4 +6,5 @@ module "streamingprovider_resolver_repo" {
   required_status_checks = [
     "helm lint",
   ]
+  create_default_branch = false
 }

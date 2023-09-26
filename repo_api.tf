@@ -6,4 +6,5 @@ module "api_repo" {
     "Test and Lint",
     "Container Build",
   ]
+  create_default_branch = false
 }
