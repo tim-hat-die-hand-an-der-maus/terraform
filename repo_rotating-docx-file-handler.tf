@@ -7,5 +7,4 @@ module "rotating_docx_file_handler_repo" {
     "build_docker",
     "build_dist",
   ]
-  create_default_branch = false
 }

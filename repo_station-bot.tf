@@ -5,5 +5,4 @@ module "station_bot_repo" {
     "lint",
     "build",
   ]
-  create_default_branch = false
 }

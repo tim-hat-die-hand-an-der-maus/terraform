@@ -7,5 +7,4 @@ module "imdb_resolver_repo" {
     "helm lint",
     "pytest",
   ]
-  create_default_branch = false
 }

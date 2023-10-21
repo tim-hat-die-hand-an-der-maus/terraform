@@ -7,5 +7,4 @@ module "metadata_updater_repo" {
     "lint",
     "build_push_docker",
   ]
-  create_default_branch = false
 }
