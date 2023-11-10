@@ -1,5 +1,5 @@
 module "preliminary_frontend_repo" {
-  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.3.0"
+  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v5.0.0"
   name                = "preliminary-frontend"
   default_branch_name = "master"
   blocked_branches    = []
