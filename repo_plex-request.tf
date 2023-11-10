@@ -1,5 +1,5 @@
 module "plex_request_repo" {
-  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.3.0"
+  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v5.0.0"
   name                = "plex-request"
   default_branch_name = "main"
   blocked_branches    = []
