@@ -4,7 +4,7 @@ module "imdb_resolver_repo" {
   default_branch_name = "master"
   blocked_branches    = []
   required_status_checks = [
-    "helm lint",
-    "pytest",
+    "lint",
+    "build-container-image",
   ]
 }
