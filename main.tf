@@ -1,5 +1,5 @@
 terraform {
-  required_version = "1.6.5"
+  required_version = "1.7.1"
 
   backend "gcs" {
     bucket = "prep-terraform-state"
@@ -9,10 +9,10 @@ terraform {
   required_providers {
     github = {
       source  = "integrations/github"
-      version = "~> 5.42.0"
+      version = "~> 5.45.0"
     }
     google = {
-      version = "~> 5.8.0"
+      version = "~> 5.12.0"
     }
   }
 }
