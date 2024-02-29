@@ -4,7 +4,6 @@ module "streamingprovider_resolver_repo" {
   default_branch_name = "main"
   blocked_branches    = []
   required_status_checks = [
-    "lint",
-    "build-container-image",
+    "build-container-image / build",
   ]
 }
