@@ -11,7 +11,6 @@ module "frontend_nevermind_repo" {
     "validate-renovate-config / validate",
   ]
 
-  protect_default_branch = false
   enable_actions         = false
   enable_argocd_rules    = false
   is_archived            = true
