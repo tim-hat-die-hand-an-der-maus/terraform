@@ -10,9 +10,6 @@ jobs:
     uses: BlindfoldedSurgery/actions-meta/.github/workflows/required.yml@v1
 
   fmt:
-    strategy:
-      matrix:
-        directory: [ ".", "modules/pubsub_channel" ]
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
