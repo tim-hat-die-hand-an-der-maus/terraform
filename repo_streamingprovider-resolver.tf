@@ -5,5 +5,6 @@ module "streamingprovider_resolver_repo" {
   blocked_branches       = []
   required_status_checks = []
   protect_default_branch = false
+  enable_argocd_rules    = false
   enable_actions         = false
 }

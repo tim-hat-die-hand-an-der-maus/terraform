@@ -4,6 +4,7 @@ module "preliminary_frontend_repo" {
   default_branch_name    = "master"
   blocked_branches       = []
   required_status_checks = []
+  enable_argocd_rules    = false
   protect_default_branch = false
   enable_actions         = false
 }
