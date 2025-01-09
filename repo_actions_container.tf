@@ -5,6 +5,5 @@ module "actions_container_repo" {
   is_public   = true
 
   enable_argocd_rules          = false
-  include_required_meta_checks = false
   required_status_checks       = []
 }
