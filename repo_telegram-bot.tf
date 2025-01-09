@@ -1,5 +1,5 @@
 module "telegram_bot_repo" {
-  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v6.0.0"
+  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.0.2"
   name                = "telegram-bot"
   default_branch_name = "main"
   blocked_branches    = []
