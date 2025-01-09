@@ -4,6 +4,6 @@ module "actions_container_repo" {
   description = "Mirrors the tags of the BlindfoldedSurgery repo with the same name"
   is_public   = true
 
-  enable_argocd_rules          = false
-  required_status_checks       = []
+  enable_argocd_rules    = false
+  required_status_checks = []
 }
