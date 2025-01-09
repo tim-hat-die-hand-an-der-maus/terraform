@@ -11,7 +11,7 @@ module "frontend_nevermind_repo" {
     "validate-renovate-config / validate",
   ]
 
-  enable_actions         = false
-  enable_argocd_rules    = false
-  is_archived            = true
+  enable_actions      = false
+  enable_argocd_rules = false
+  is_archived         = true
 }
