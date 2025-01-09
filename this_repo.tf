@@ -7,6 +7,8 @@ module "self_repo" {
     "plan",
   ]
   description = "Organization infrastructure, including GitHub repositories"
+
+  enable_argocd_rules = false
 }
 
 resource "google_service_account" "self" {

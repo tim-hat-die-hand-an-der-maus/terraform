@@ -6,4 +6,7 @@ module "api_repo" {
     "Test and Lint",
     "Container Build",
   ]
+
+  protect_default_branch = false
+  enable_actions         = false
 }
