@@ -5,5 +5,4 @@ module "telegram_bot_repo" {
   blocked_branches       = []
   required_status_checks = []
   protect_default_branch = false
-  enable_actions         = false
 }
