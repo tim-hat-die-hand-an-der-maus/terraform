@@ -10,4 +10,5 @@ module "metadata_updater_repo" {
   enable_argocd_rules          = false
   include_required_meta_checks = false
   enable_actions               = false
+  is_archived                  = true
 }
