@@ -5,6 +5,9 @@ module "metadata_updater_repo" {
 
   blocked_branches       = []
   required_status_checks = []
-  protect_default_branch = false
-  enable_actions         = false
+
+  protect_default_branch       = false
+  enable_argocd_rules          = false
+  include_required_meta_checks = false
+  enable_actions               = false
 }
