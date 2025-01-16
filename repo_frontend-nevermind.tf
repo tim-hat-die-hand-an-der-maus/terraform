@@ -1,5 +1,5 @@
 module "frontend_nevermind_repo" {
-  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.0.2"
+  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.1.3"
   name                = "frontend-nevermind"
   default_branch_name = "master"
 
