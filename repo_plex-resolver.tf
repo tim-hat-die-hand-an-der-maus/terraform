@@ -1,5 +1,5 @@
 module "plex_resolver_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.0.2"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.1.3"
   name                   = "plex-resolver"
   default_branch_name    = "master"
   blocked_branches       = []
