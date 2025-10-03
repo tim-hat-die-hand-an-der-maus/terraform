@@ -1,5 +1,5 @@
 module "plex_library_update_notifier_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.4.0"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.4.1"
   name                   = "plex-library-update-notifier"
   blocked_branches       = []
   required_status_checks = []
