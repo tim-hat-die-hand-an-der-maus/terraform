@@ -1,5 +1,5 @@
 module "streamingprovider_resolver_repo" {
-  source = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.4.0"
+  source = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.4.1"
   name   = "streamingprovider-resolver"
 
   blocked_branches       = []

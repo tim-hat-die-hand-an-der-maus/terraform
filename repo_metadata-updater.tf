@@ -1,5 +1,5 @@
 module "metadata_updater_repo" {
-  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.4.0"
+  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.4.1"
   name                = "metadata-updater"
   default_branch_name = "master"
 
