@@ -1,5 +1,5 @@
 module "preliminarier_frontend_repo" {
-  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v10.0.1"
+  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v10.1.0"
   name                = "preliminarier-frontend"
   description         = "It's even more preliminary"
   enable_argocd_rules = false
