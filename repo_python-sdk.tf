@@ -1,5 +1,5 @@
 module "python_sdk_repo" {
-  source = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.4.1"
+  source = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v10.0.1"
   name   = "python-sdk"
 
   allow_default_branch_protection_bypass = false
