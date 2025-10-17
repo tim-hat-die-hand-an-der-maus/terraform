@@ -1,5 +1,5 @@
 module "rotating_docx_file_handler_repo" {
-  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v10.1.0"
+  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v10.1.1"
   name                = "rotating-docx-file-handler"
   default_branch_name = "develop"
 
