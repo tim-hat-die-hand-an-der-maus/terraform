@@ -22,7 +22,9 @@ locals {
 }
 
 provider "github" {
-  owner = "tim-hat-die-hand-an-der-maus"
+  owner             = "tim-hat-die-hand-an-der-maus"
+  parallel_requests = true
+
   app_auth {
     id              = local.gh_app_id
     pem_file        = null
