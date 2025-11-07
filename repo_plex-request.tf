@@ -3,4 +3,5 @@ module "plex_request_repo" {
   name   = "plex-request"
 
   is_archive_prepared = true
+  is_public           = false
 }

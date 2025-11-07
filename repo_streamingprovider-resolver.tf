@@ -3,4 +3,5 @@ module "streamingprovider_resolver_repo" {
   name   = "streamingprovider-resolver"
 
   is_archive_prepared = true
+  is_public           = false
 }

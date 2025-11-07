@@ -3,4 +3,5 @@ module "plex_library_update_notifier_repo" {
   name   = "plex-library-update-notifier"
 
   is_archive_prepared = true
+  is_public           = false
 }

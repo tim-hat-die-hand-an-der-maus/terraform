@@ -5,4 +5,5 @@ module "preliminary_frontend_repo" {
 
   is_archive_prepared = true
   is_archived         = true
+  is_public           = false
 }

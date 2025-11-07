@@ -5,4 +5,5 @@ module "rotating_docx_file_handler_repo" {
 
   is_archive_prepared = true
   is_archived         = true
+  is_public           = false
 }

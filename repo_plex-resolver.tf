@@ -4,4 +4,5 @@ module "plex_resolver_repo" {
   default_branch_name = "master"
 
   is_archive_prepared = true
+  is_public           = false
 }
