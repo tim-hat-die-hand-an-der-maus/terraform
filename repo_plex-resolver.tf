@@ -3,6 +3,7 @@ module "plex_resolver_repo" {
   name                = "plex-resolver"
   default_branch_name = "master"
 
+  is_archived         = true
   is_archive_prepared = true
   is_public           = false
 }
