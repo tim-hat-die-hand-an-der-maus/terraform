@@ -35,4 +35,6 @@ resource "github_actions_secret" "self_gsa" {
   repository      = module.self_repo.name
   secret_name     = "GOOGLE_SA_JSON"
   plaintext_value = base64decode(google_service_account_key.self.private_key)
+
+  destroy_on_drift = true
 }
