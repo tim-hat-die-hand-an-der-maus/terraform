@@ -9,7 +9,7 @@ terraform {
   required_providers {
     github = {
       source  = "integrations/github"
-      version = "~> 6.8.0"
+      version = "6.8.3"
     }
     google = {
       version = "~> 7.12.0"
